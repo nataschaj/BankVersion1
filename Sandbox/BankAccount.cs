@@ -7,6 +7,8 @@ namespace Sandbox
 {
     public class BankAccount
     {
-        private String name
+        private String AccountHolderName;
+        private double balance;
+
     }
 }
