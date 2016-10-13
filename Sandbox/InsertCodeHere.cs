@@ -11,7 +11,10 @@ namespace Sandbox
 
             Console.WriteLine($"{account1.GetName()} has a balance of {account1.GetBalance()} ");
 
+            account1.Deposit(200);
+            account1.Deposit(300);
 
+            Console.WriteLine($"{account1.GetName()} has a balance of {account1.GetBalance()} ");
 
             // The LAST line of code should be ABOVE this line
         }
