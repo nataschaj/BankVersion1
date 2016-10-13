@@ -12,7 +12,7 @@ namespace Sandbox
 
         public BankAccount(String name)
         {
-
+            AccountHolderName = name;
             balance = 0;
         }
     }
