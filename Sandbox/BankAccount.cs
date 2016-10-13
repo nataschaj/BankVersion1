@@ -15,5 +15,12 @@ namespace Sandbox
             AccountHolderName = name;
             balance = 0;
         }
+
+        public void Deposit()
+        {
+
+        }
+
+
     }
 }
