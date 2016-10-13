@@ -7,5 +7,6 @@ namespace Sandbox
 {
     public class BankAccount
     {
+        private String name
     }
 }
