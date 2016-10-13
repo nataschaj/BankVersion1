@@ -10,5 +10,9 @@ namespace Sandbox
         private String AccountHolderName;
         private double balance;
 
+        public BankAccount(String name)
+        {
+
+        }
     }
 }
