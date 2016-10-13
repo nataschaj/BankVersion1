@@ -26,6 +26,15 @@ namespace Sandbox
             balance = balance - amount;
         }
 
+        public String GetName()
+        {
+            return AccountHolderName;
+        }
+
+        public double GetBalance()
+        {
+            return balance;
+        }
 
 
     }
